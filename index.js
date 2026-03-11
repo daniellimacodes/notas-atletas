@@ -46,7 +46,7 @@ function calcularMedia(notas) {
 
   let somaDasNotas = 0;
 
-  notasVerificadas.forEach((nota) => (somaDasNotas = somaDasNotas + nota));
+  notasVerificadas.forEach(nota => somaDasNotas += nota);
 
   return somaDasNotas / notasVerificadas.length;
 }
